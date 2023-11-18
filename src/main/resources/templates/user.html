@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+
+<head>
+    <title>User</title>
+</head>
+<body>
+<p>User: <span th:text="${user.getUsername()}"></span></p>
+<p>Email: <span th:text="${user.getEmail()}"></span></p>
+<p>Права доступа: <span th:text="${user.getRoles()}"></span></p>
+<br>
+<a href="/logout"><button type="button">Выйти</button></a>
+<br>
+
+</body>
+</html>
