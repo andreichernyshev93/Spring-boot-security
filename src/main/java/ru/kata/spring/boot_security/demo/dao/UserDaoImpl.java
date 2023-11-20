@@ -46,8 +46,4 @@ public class UserDaoImpl implements UserDao{
         entityManager.remove(show(id));
     }
 
-    @Override
-    public List<Role> getAllRoles() {
-        return entityManager.createQuery("select r from Role r", Role.class).getResultList();
-    }
 }

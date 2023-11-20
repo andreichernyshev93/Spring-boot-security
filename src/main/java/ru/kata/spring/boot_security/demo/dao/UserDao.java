@@ -18,6 +18,4 @@ public interface UserDao {
 
     public void delete(Long id);
 
-    public List<Role> getAllRoles();
-
 }

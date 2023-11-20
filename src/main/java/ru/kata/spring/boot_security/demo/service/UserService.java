@@ -19,6 +19,4 @@ public interface UserService extends UserDetailsService {
 
     public void delete(Long id);
 
-    public List<Role> getAllRoles();
-
 }
